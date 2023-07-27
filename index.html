@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AutoStore</title>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Auto Store</h1>
+        <p>Продажа автомобилей</p>
+        <nav>
+          <a href="#">Каталог</a>
+          <a href="#">О нас</a>
+          <a href="#">Контакты</a>
+          <button class="section_button">Регистрация</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="side">
+          <h2>О нас</h2>
+          <h3>Знакомтесь, наш разработчик</h3>
+          <br />
+          <img
+            src="./assets/developer.jpg"
+            style="height: 400px"
+            alt="разработчик"
+          />
+          <p>
+            Это Даниил, он усердно учится и совершенствует свои знания, пожелаем
+            ему успехов!
+          </p>
+          <h4>Наш девиз - "ПУК":</h4>
+          <br />
+          <div class="fakeimg" style="height: 60px">Пришел</div>
+          <br />
+          <div class="fakeimg" style="height: 60px">Увидел</div>
+          <br />
+          <div class="fakeimg" style="height: 60px">Купил</div>
+        </section>
+
+        <section class="main">
+          <h2>Наши гарантии</h2>
+          <h5>Июль 25, 2023</h5>
+          <br />
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="./assets/photo1.jpg"
+                class="gallery__img"
+                alt="Image 1"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img
+                src="./assets/photo2.jpg"
+                class="gallery__img"
+                alt="Image 2"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img
+                src="./assets/photo3.jpg"
+                class="gallery__img"
+                alt="Image 3"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img
+                src="./assets/photo4.jpg"
+                class="gallery__img"
+                alt="Image 4"
+              />
+            </figure>
+          </div>
+          <p>Мы запустили продажу люксовых автомобилей.</p>
+          <p>
+            Мы создали витрину самых выгодных предложений на рынке авто. Для
+            этого велась большая работа с ведущими автомобильными дилерами всех
+            стран Европы и Азии. Дилеры выставляют для AutoStore самые
+            привлекательные цены, которые вообще могут быть. А покупатель
+            сравнивает лучшие предложения, которые есть в наличии.
+          </p>
+          <br />
+          <p>Выберите цвета вашего автомобиля:</p>
+          <div class="wrap">
+            <div class="color1">
+              <input
+                type="color"
+                id="primary"
+                name="primary"
+                value="#033b95"
+                class="color-picker"
+              />
+              <label for="primary">Основной</label>
+            </div>
+
+            <div class="color2">
+              <input
+                type="color"
+                id="additional"
+                name="additional"
+                value="#000000"
+                class="color-picker"
+              />
+              <label for="additional">Дополнительный</label>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="wrap-calendar">
+            <label for="start">Дата доставки:</label>
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="2023-07-25"
+              min="2023-07-25"
+              max="2025-12-31"
+              class="calendar"
+            />
+          </div>
+
+          <h2>Продажа авто класса Lux</h2>
+          <h5>Июнь 25, 2023</h5>
+          <br />
+          <div class="fakeimg">Image</div>
+          <p>Краткое описание...</p>
+          <p>
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст Текст текст текст текст текст Текст текст
+            текст текст текст Текст текст текст текст текст Текст текст текст
+            текст текст Текст текст текст текст текст Текст текст текст текст
+            текст Текст текст текст текст текст Текст текст текст текст текст
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст Текст текст текст текст текст Текст текст
+            текст текст текст Текст текст текст текст текст Текст текст текст
+            текст текст Текст текст текст текст текст Текст текст текст текст
+            текст Текст текст текст текст текст Текст текст текст текст текст
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст Текст текст текст текст текст Текст текст
+            текст текст текст Текст текст текст текст текст Текст текст текст
+            текст текст Текст текст текст текст текст Текст текст текст текст
+            текст Текст текст текст текст текст Текст текст текст текст текст
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст
+          </p>
+          <br />
+
+          <h2>Наши спонсоры</h2>
+          <h5>Март 10, 2023</h5>
+          <br />
+          <div class="fakeimg">Image</div>
+          <p>Краткое описание...</p>
+          <p>
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст Текст текст текст текст текст Текст текст
+            текст текст текст Текст текст текст текст текст Текст текст текст
+            текст текст Текст текст текст текст текст Текст текст текст текст
+            текст Текст текст текст текст текст Текст текст текст текст текст
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст Текст текст текст текст текст Текст текст
+            текст текст текст Текст текст текст текст текст Текст текст текст
+            текст текст Текст текст текст текст текст Текст текст текст текст
+            текст Текст текст текст текст текст Текст текст текст текст текст
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст Текст текст текст текст текст Текст текст
+            текст текст текст Текст текст текст текст текст Текст текст текст
+            текст текст Текст текст текст текст текст Текст текст текст текст
+            текст Текст текст текст текст текст Текст текст текст текст текст
+            Текст текст текст текст текст Текст текст текст текст текст Текст
+            текст текст текст текст
+          </p>
+
+          <div class="modal">
+            <div class="modal_main">
+              <h2 class="modal_title">Регистрация</h2>
+              <br />
+
+              <div class="modal_container">
+                <form>
+                  <label for="password">Пароль (мин. 8 знаков):</label>
+                  <input
+                    type="password"
+                    id="pass"
+                    name="password"
+                    minlength="8"
+                    placeholder="Пароль"
+                    required
+                  />
+
+                  <label for="confirm_password">Повторите пароль:</label>
+                  <input
+                    type="password"
+                    id="confirm_pass"
+                    name="password"
+                    minlength="8"
+                    placeholder="Повторите пароль"
+                    required
+                  />
+                </form>
+
+                <span id="message"></span>
+                <button class="btn_check">Отправить</button>
+              </div>
+
+              <button class="modal_close">&#10006;</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="row">
+          <ul>
+            <li><a href="#">Связаться с нами</a></li>
+            <li><a href="#">Сервисы</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          © 2023 Copyright - All rights reserved || Designed By: 21Dan
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
